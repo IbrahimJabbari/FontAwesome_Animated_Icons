@@ -4,4 +4,4 @@ In this video I'm going to show you how to create some animated font awesome ico
 
 <h3>Watch the video tutorial: </h3>
 
-[![Animated Font Awesome Icons Using JavaScript](http://img.youtube.com/vi/m9GIpg6IvM8/0.jpg)](http://www.youtube.com/watch?v=m9GIpg6IvM8 "Create Icon Animation Using Font Awesome and JavaScript")
+[![Animated Font Awesome Icons Using JavaScript](https://img.youtube.com/vi/m9GIpg6IvM8/maxresdefault.jpg)](http://www.youtube.com/watch?v=m9GIpg6IvM8 "Create Icon Animation Using Font Awesome and JavaScript")
