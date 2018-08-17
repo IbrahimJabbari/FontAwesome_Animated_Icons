@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <title>Animated Icons by Ibrahim Jabbari</title>
+  <style>
+  #chain, #battery, #hourglass {
+  font-size:60px;
+  }
+  </style>
+</head>
+<body>
+
+  <div id="chain" class="fa"></div>
+
+  <br><br>
+
+  <div id="battery" class="fa"></div>
+
+  <br><br>
+
+  <div id="hourglass" class="fa"></div>
+
+<script>
+	// This is created by Ibrahim Jabbari, Subscribe to my channel if you want to have more video tutorials like this
+	// Subscribe to my YouTube channel here: https://algr.in/SubscribeIJ
+	
+
+//Break Chain Animation
+function breakChain(){
+  let chain = document.getElementById('chain');
+  chain.innerHTML ="&#xf0c1";
+
+  setTimeout(function(){
+    chain.innerHTML = "&#xf127";
+  }, 1000);
+}
+//call Animation
+breakChain();
+
+// This animated the icon every 2 secons, 2000 = 2
+setInterval(breakChain, 2000);
+
+
+function chargeBattery (){
+  let battery = document.getElementById('battery');
+  battery.innerHTML = "&#xf244";
+  setTimeout(function(){
+    battery.innerHTML ="&#xf243";
+  }, 500);
+  setTimeout(function(){
+    battery.innerHTML ="&#xf242";
+  }, 1000);
+  setTimeout(function(){
+    battery.innerHTML ="&#xf241";
+  }, 1500);
+  setTimeout(function(){
+    battery.innerHTML ="&#xf240";
+  }, 2000);
+}
+
+//Run Animation
+chargeBattery();
+
+// Run Animation Every 1/2 second
+setInterval(chargeBattery, 2500);
+
+function hourglassTip(){
+  let hourglass = document.getElementById('hourglass');
+  hourglass.innerHTML = "&#xf251";
+  setTimeout(function(){
+    hourglass.innerHTML ="&#xf252";
+  }, 1000);
+  setTimeout(function(){
+    hourglass.innerHTML ="&#xf253";
+  }, 2000);
+}
+
+// Run Animation
+hourglassTip();
+
+// Run Animation Every 3 Seconds
+setInterval(hourglassTip, 3000);
+
+
+</script>
+
+
+</body>
+</html>
